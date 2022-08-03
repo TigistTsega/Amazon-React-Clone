@@ -1,0 +1,48 @@
+.home__container img {
+  cursor: pointer;
+}
+.home__image {
+  width: 100%;
+  /* margin-bottom: -150px; */
+  margin-bottom: -40vh;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+}
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.ArrowBackIosIcon {
+  color: black;
+  font-weight: 500px;
+    font-size: 2.5rem;
+  
+}
+.home__buttonLeft {
+  position: absolute;
+  left: -0%;
+  top: 90px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding-left: 20px;
+  margin-top: 133px;
+  margin-bottom: 10px;
+}
+.home__buttonRight {
+  position: absolute;
+  right: -0%;
+  top: 90px;
+  transform: rotate(180deg);
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding-right:20px ;
+  margin-top: 133px;
+  margin-bottom: 10px;
+}
+.home__buttonLeft:hover,
+.home__buttonRight:hover {
+  border: 1px white solid;
+  border-radius: 1px;
+}
