@@ -8,7 +8,7 @@ import "firebase/compat/firestore";
 // const storage = firebase.storage().ref();//new
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDz10EPqoZ26auNpeDEyQCU0TTJoWX1eJU",
+  apiKey: "REACT_APP_apikey", 
   authDomain: "react-clone-29c2e.firebaseapp.com",
   databaseURL: "https://react-clone-29c2e-default-rtdb.firebaseio.com",
   projectId: "react-clone-29c2e",
